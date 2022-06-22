@@ -19,8 +19,6 @@
    --dark-gray: hsl(0, 0%, 55%);
    --very-dark-gray: hsl(0, 0%, 41%);
 
-   --main-bg: hsl(0, 0%, 100%);
-
    /* font */
    --font-fam-alata: "Alata", sans-serif;
    --font-fam-josefin: "Josefin Sans", sans-serif;
@@ -509,11 +507,10 @@ header {
    background-position: top 0rem left 0rem;
    background-size: cover;
    width: 100%;
+   height: 100%;
 
    display: flex;
-   flex-direction: column;
    align-items: flex-end;
-   justify-content: end;
    position: relative;
    cursor: pointer;
 }
@@ -524,6 +521,7 @@ header {
    position: absolute;
    top: 0;
    left: 0;
+
    height: 100%;
    width: 100%;
    opacity: 0.5;
@@ -537,9 +535,7 @@ header {
 
 @media (min-width: 801px) {
    .card {
-      position: relative;
-      background-size: 100%;
-      height: 45rem;
+      min-height: 45rem;
    }
 }
 
@@ -548,18 +544,16 @@ header {
    width: 100%;
    color: var(--white);
    font-size: 2.2rem;
-   height: 100%;
 }
 
 .card:hover .card_text {
    color: var(--black);
    z-index: 1;
-   cursor: pointer;
 }
 
 @media (min-width: 801px) {
    .card_text {
-      padding: 0 0 4rem 4rem;
+      padding: 0rem 0 4rem 4rem;
       font-size: 3rem;
    }
 }
