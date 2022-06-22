@@ -108,6 +108,7 @@ header {
    position: fixed;
    top: 4rem;
    left: 2.5rem;
+   z-index: 98;
 }
 
 @media (min-width: 768px) {
@@ -131,7 +132,7 @@ header {
    transform: translateY(-150%);
    min-width: 32rem;
    min-height: 100vh;
-   z-index: 98;
+   z-index: 97;
 }
 
 .menus_container.show {
@@ -293,7 +294,7 @@ header {
    display: block;
    border: 0.2rem solid var(--white);
    color: var(--white);
-   padding: 2rem;
+   padding: 2rem 2.5rem 2rem 2rem;
    width: 100%;
 }
 
@@ -511,6 +512,7 @@ header {
 
    display: flex;
    flex-direction: column;
+   align-items: flex-end;
    justify-content: end;
    position: relative;
    cursor: pointer;
@@ -537,7 +539,7 @@ header {
    .card {
       position: relative;
       background-size: 100%;
-      min-height: 78vh;
+      height: 45rem;
    }
 }
 
