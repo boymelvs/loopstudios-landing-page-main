@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="this is my solution to loopstudios landing page challenge from frontend Mentor" />
+      <meta name="keyword" content="html, css, flexbox, grid, javascript" />
+      <meta name="author" content="melvin" />
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+      <link rel="stylesheet" href="./styles/styles.css" />
+      <title>Frontend Mentor | Loopstudios landing page</title>
+   </head>
+   <body>
+      <div class="container">
+         <header class="header">
+            <nav class="nav_bar">
+               <img src="./images/logo.svg" alt="Loopstudios" class="logo" />
+
+               <div class="menus_container">
+                  <ul class="menu">
+                     <li><a href="#about" class="about">About</a></li>
+                     <li><a href="#careers" class="careers">Careers</a></li>
+                     <li><a href="#events" class="events">Events</a></li>
+                     <li><a href="#products" class="products">Products</a></li>
+                     <li><a href="#support" class="support">Support</a></li>
+                  </ul>
+               </div>
+
+               <!-- /* burger menu */ -->
+               <input type="checkbox" id="burger_checkbox" class="burger_checkbox" />
+
+               <label for="burger_checkbox" class="burger_label">
+                  <span class="burger_container">
+                     <span class="burger_line line1"></span>
+                     <span class="burger_line line2"></span>
+                     <span class="burger_line line3"></span>
+                  </span>
+               </label>
+            </nav>
+
+            <div class="hero_text_container">
+               <div class="hero_text">Immersive experiences that deliver</div>
+            </div>
+         </header>
+
+         <main class="main_content">
+            <div class="interactive_container">
+               <img src="./images/mobile/image-interactive.jpg" alt="Interactive" class="interactive_mobile" />
+
+               <img src="./images/desktop/image-interactive.jpg" alt="Interactive" class="interactive_desktop" />
+
+               <div class="interactive_text">
+                  <div class="interactive_title">The leader in interactive VR</div>
+
+                  <p class="interactive_description">
+                     Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning
+                     creations have transformed businesses through digital experiences that bind to their brand.
+                  </p>
+               </div>
+            </div>
+
+            <div class="creations_container">
+               <div class="creations_title">Our creations</div>
+
+               <div class="creations_image_container">
+                  <div class="card earth">
+                     <div class="card_text deep_earth">DEEP <span> EARTH </span></div>
+                  </div>
+
+                  <div class="card arcade">
+                     <div class="card_text night_arcade">NIGHT <span> ARCADE </span></div>
+                  </div>
+
+                  <div class="card soccer">
+                     <div class="card_text soccer_team">SOCCER <span> TEAM VR </span></div>
+                  </div>
+
+                  <div class="card grid">
+                     <div class="card_text the_grid">THE <span> GRID </span></div>
+                  </div>
+
+                  <div class="card up_above">
+                     <div class="card_text up_above_vr">FROM UP <span> ABOVE VR </span></div>
+                  </div>
+
+                  <div class="card pocket">
+                     <div class="card_text pocket_borealis">POCKET <span> BOREALIS </span></div>
+                  </div>
+
+                  <div class="card curiosity">
+                     <div class="card_text the_curiosity">THE <span> CURIOSITY </span></div>
+                  </div>
+
+                  <div class="card fisheye">
+                     <h2 class="card_text make_fisheye">MAKE IT <span> FISHEYE </span></h2>
+                  </div>
+
+                  <div class="see_all_btn_container">
+                     <button type="button" class="see_all_btn">SEE ALL</button>
+                  </div>
+               </div>
+            </div>
+         </main>
+
+         <footer class="footer">
+            <div class="footer_logo_menus_container">
+               <img src="./images/logo.svg" alt="Loopstudios" class="logo" />
+
+               <div class="menus_container">
+                  <ul class="menu">
+                     <li><a href="#about" class="about">About</a></li>
+                     <li><a href="#careers" class="careers">Careers</a></li>
+                     <li><a href="#events" class="events">Events</a></li>
+                     <li><a href="#products" class="products">Products</a></li>
+                     <li><a href="#support" class="support">Support</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="social_media">
+               <ul>
+                  <li>
+                     <a href="#" class="facebook">
+                        <img src="./images/icon-facebook.svg" alt="Facebook" class="icon icon_fb" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" class="twitter">
+                        <img src="./images/icon-twitter.svg" alt="Twitter" class="icon icon_twitter" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" class="pinterest">
+                        <img src="./images/icon-pinterest.svg" alt="Pinterest" class="icon icon_pinterest" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" class="instagram">
+                        <img src="./images/icon-instagram.svg" alt="Instagram" class="icon icon_instagram" />
+                     </a>
+                  </li>
+               </ul>
+
+               <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+            </div>
+         </footer>
+
+         <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. Coded by
+            <a href="https://github.com/boymelvs" target="_blank" rel="noreferrer noopener">boymelvs</a>.
+         </div>
+      </div>
+
+      <script src="./scripts/index.js"></script>
+   </body>
+</html>
