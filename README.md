@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
--  Live Site URL: [Testimonials grid section solution](https://boymelvs.github.io/loopstudios-landing-page-main)
+-  Live Site URL: [Loopstudios landing page solution](https://boymelvs.github.io/loopstudios-landing-page-main)
 
 ### Built with
 
